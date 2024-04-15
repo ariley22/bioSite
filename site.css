@@ -1,0 +1,70 @@
+#navbar {
+    overflow: hidden;
+    background-color: red;
+    border: 15px solid black;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+   background-color: black;
+}
+
+h1{
+   font-weight: 400;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+h2{
+   text-align: center;
+}
+
+figcaption{
+   font-style: italic;
+   font-size: 12px;
+}
+
+#container {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+}
+
+.card-view{
+   display: inline-block;
+   margin-left: 10%;
+}
+
+.left-text, .left-fig{
+   float: left;
+   width: 45%;
+}
+
+.right-text, .right-fig{
+   float: right;
+   width: 45%;
+}
+
+.center-txt{
+   text-align: center;
+}
+
+img{
+   max-width: 50%;
+   height: auto;
+}
+
+.center-img {
+   display: block;
+   margin: auto;
+   width: 40%;
+}
