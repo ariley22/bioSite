@@ -6,19 +6,18 @@ body{
     overflow: hidden;
     background-color: red;
     border: 15px solid black;
+    text-align: center;
 }
 
 #navbar a {
-    float: left;
-    display: block;
+    display: inline-block;
+    padding: 10px 20px;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
 #navbar a:hover {
-   background-color: black;
+    background-color: black;
 }
 
 h1{
@@ -42,26 +41,41 @@ figcaption{
 }
 
 #container {
-    margin-top: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
 }
 
 .card-view{
-   display: inline-block;
    margin-left: 10%;
+   margin-bottom: 30px;
+   overflow: hidden;
+   display: flex;
 }
 
 .left-text, .left-fig{
    float: left;
    width: 45%;
+   flex: 1;
+   align-items: center;
+   justify-content: center;
 }
 
 .right-text, .right-fig{
    float: right;
    width: 45%;
    margin-right: 50px;
+   flex: 1;
+   align-items: center;
+   justify-content: center;
+}
+
+.left-text, .right-text{
+   display: flex;
+}
+
+.left-fig, .right-fig{
+   text-align: center;
 }
 
 .center-txt{
@@ -77,4 +91,8 @@ img{
    display: block;
    margin: auto;
    width: 40%;
+}
+
+.padded-class {
+   margin: 30px 20px;
 }
